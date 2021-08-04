@@ -8,7 +8,7 @@ git clone https://github.com/codassassin/email-bomber-v2.0.git
 ```
 * Run the email_bomber_v2.0.py file:
 ```
-python email_bomber.py
+python email_bomber_v2.0.py
 ```
 * Enter the target address.
 * Enter the bomb mode.
