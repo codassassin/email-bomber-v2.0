@@ -20,6 +20,15 @@ python email_bomber_v2.0.py
 * Set up the attacker email as instructed.
 * Then the attack will start.
 
+## Exaple Run...
+* This is an example run:
+
+![002](https://user-images.githubusercontent.com/55107082/128202022-fdabb205-73c9-45dd-a31d-ddfd82d6182b.png)
+
+* This is a condition that arises for bombs > 50. This is a part of the process and totally normal:
+
+![001](https://user-images.githubusercontent.com/55107082/128202209-4a82841c-4a0e-4c73-ac4f-2c5c51547cb8.png)
+
 ### Disclaimer !!
 
 > This tool is only for testing and academic purposes and can only be used where strict consent has been given. Do not use it for
