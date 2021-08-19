@@ -129,7 +129,7 @@ class EmailBomber:
             sys.stdout.write(self.y + '\r' + '[BOMBED EMAILS:' + self.b + f' {self.count}' + self.y + ']' + self.b +
                              ' [' + self.g + ('#' * int(loadSeq)) + self.b + ']')
             sys.stdout.flush()
-            if self.count % 50 == 0:
+            if self.count % 50 == 0 and self.count != self.amount:
                 time.sleep(0.5)
                 sys.stdout.flush()
                 waitLimit = 60
@@ -152,6 +152,7 @@ class EmailBomber:
             self.send()
         self.s.close()
         print(self.g + '\n[+] Attack Finished !!')
+        print(self.g + f'[+] Successfully BOMBED {self.amount} emails !!')
         sys.exit(0)
 
 
