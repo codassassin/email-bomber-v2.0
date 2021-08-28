@@ -58,7 +58,7 @@ class EmailBomber:
                 sys.exit(0)
 
         except Exception as e:
-            print(self.r + f'[-] ERROR: {e}')
+            print(self.r + f'\n[-] ERROR: {e}')
             sys.exit(0)
 
     def bomb(self):
@@ -76,7 +76,7 @@ class EmailBomber:
             print(self.g + f'[+] You have selected BOMB mode {self.mode} and {self.amount} emails')
 
         except Exception as e:
-            print(self.r + f'[-] ERROR: {e}')
+            print(self.r + f'\n[-] ERROR: {e}')
             sys.exit(0)
 
     def email(self):
@@ -118,7 +118,7 @@ class EmailBomber:
             self.s.login(self.fromAddr, self.fromPwd)
 
         except Exception as e:
-            print(self.r + f'[-] ERROR: {e}')
+            print(self.r + f'\n[-] ERROR: {e}')
             sys.exit(0)
 
     def send(self):
@@ -134,14 +134,14 @@ class EmailBomber:
                 sys.stdout.flush()
                 waitLimit = 60
                 while waitLimit > 0:
-                    sys.stdout.write(self.r + '\r' + '[↻] RESETTING CONNECTION !! => ' + self.y + ' Wait for ' +
-                                     str(waitLimit) + ' seconds')
+                    sys.stdout.write(self.r + '\r' + f'[↻] Sent {self.count} emails ... RESETTING CONNECTION !! => ' +
+                                     self.y + ' Wait for ' + str(waitLimit) + ' seconds')
                     time.sleep(1)
                     waitLimit -= 1
                     sys.stdout.flush()
 
         except Exception as e:
-            print(self.r + f'[-] ERROR: {e}')
+            print(self.r + f'\n[-] ERROR: {e}')
             sys.exit(0)
 
     def attack(self):
