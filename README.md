@@ -27,7 +27,7 @@ python email_bomber_v2.0.py
 
 * This is a condition that arises for bombs > 50. This is a part of the process and totally normal:
 
-![001](https://user-images.githubusercontent.com/55107082/128202209-4a82841c-4a0e-4c73-ac4f-2c5c51547cb8.png)
+![004](https://user-images.githubusercontent.com/55107082/131223000-9227c42c-ea15-415f-b605-17e1be1dfc02.png)
 
 ## Result Image
 ![003](https://user-images.githubusercontent.com/55107082/128203024-0c5e9d81-0fa1-4e0e-abd2-1ad39663833a.png)
